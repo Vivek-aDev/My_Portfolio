@@ -5,19 +5,16 @@ body {
   margin: 0px;
   overflow-x: hidden;
 }
-section{
-    display: block;
-}
 
 p {
-  text-align: justify;
+  text-align: center;
 }
 
 :root {
   --primary-color: #22c55e;
   --footer-color: #22c55e;
   --span-color: #fde047;
-  --section-color: #4ade80;
+  --section-color: #bbf7d0;
 }
 
 hr {
