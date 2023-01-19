@@ -1,74 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link
+      rel="shortcut icon"
+      href="/favicon_io/favicon-32x32.png"
+      type="image/x-icon"
+    />
     <title>Portfolio | blogs</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+  </head>
 
-<body>
-    <nav class="navigation">
-        <div class="nav-header">Portfolio | Blogs</div>
-        <div class="nav-pills">
-            <div>
-                <a class="nav-link" href="/">Home</a>
-            </div>
-            <div>
-                <a class="nav-link" href="/projects.html">Projects</a>
-            </div>
-            <div>
-                <a class="nav-link link-active" href="/blogs.html">Blogs</a>
-            </div>
-        </div>
+  <body>
+    <!-- navigation  -->
+    <nav class="navigation container">
+      <div class="nav-brand"><a href="/">Vivek_aDev</a></div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link" href="/">home</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/projects.html">projects</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link link-active" href="/blogs.html">blogs</a>
+        </li>
+      </ul>
     </nav>
 
-    <header class="header">
-        <img class="header-img" src="/svg/web_developer.svg">
-        <h1 class="header-content">Dev | Vivekananda's <span class="header-content-highlight">Blogs</span></h1>
+    <!-- header  -->
+    <header class="hero">
+      <img class="hero-img" src="/svg/web_developer.svg" />
+      <h1 class="hero-heading">
+        Dev | Vivekananda's <span class="heading-inverted"> Blogs</span>
+      </h1>
     </header>
 
-    <section class="section section-grey">
-        <div class="center-container">
-            <div class="center-container section-header"><span>Blockchain</span></div>
+    <!-- section  -->
+    <ul class="list-non-bullet">
+      <!-- list01  -->
+      <li>
+        <article class="showcase-list container container-center grey">
+          <h1>Blockchain</h1>
+          <p>
+            As a developer, it's important to stay up-to-date with the latest
+            tools and technologies in order to stay competitive in the job
+            market. One way to do this is by constantly learning and
+            experimenting with new technologies, and sharing your knowledge with
+            others through writing and speaking at conferences or meetups.
+          </p>
+          <a class="link link-primary" href="./blog_list.html" target="_blank"
+            >Read More</a
+          >
+        </article>
+      </li>
 
-            <p>As a developer, it's important to stay up-to-date with the latest tools and technologies in order to stay
-            competitive in the job market. One way to do this is by constantly learning and experimenting with new
-            technologies, and sharing your knowledge with others through writing and speaking at conferences or meetups.</p>
-            <a class="link link-secondary" href="/blog_list.html" target="_blank">Read more</a>
-        </div>
-    </section>
+      <!-- lsit02  -->
+      <li>
+        <article class="showcase-list container container-center">
+          <h1>Artificial intelligence and machine learning</h1>
+          <p>
+            Artificial intelligence (AI) and machine learning (ML) are two
+            closely related fields that have made significant progress in recent
+            years, and are being used in a variety of industries to automate
+            tasks and make better decisions.
+          </p>
+          <a class="link link-primary" href="./blog_list.html" target="_blank"
+            >Read More</a
+          >
+        </article>
+      </li>
+    </ul>
 
-
-    <section class="section">
-        <div class="center-container">
-            <div class="center-container section-header">Artificial intelligence and machine learning<span class="header-content-highlight">
-                </span></div>
-    
-            <p>Artificial intelligence (AI) and machine learning (ML) are two closely related fields that have made
-            significant progress in recent years, and are being used in a variety of industries to automate tasks and make
-            better decisions.</p>
-    
-            <a class="link link-secondary" href="/blog_list.html" target="_blank">Read more</a>
-        </div>
-    </section>
-
-    
+    <!-- footer  -->
     <footer class="footer">
-        <div class="footer-header">Connect with me on: </div>
-    
-        <ul class="non-bullet-list">
-            <li class="inline-list"><a class="footer-link" target="_blank" href="https://github.com/Vivek-aDev">Github</a>
-            </li>
-            <li class="inline-list"><a class="footer-link" target="_blank" href="https://twitter.com/Vivek_aDev">Twitter</a>
-            </li>
-            <li class="inline-list"><a class="footer-link" target="_blank"
-                    href="https://www.instagram.com/i_as_vivek/">Instagram</a></li>
-            <li class="inline-list"><a class="footer-link" target="_blank"
-                    href="https://www.linkedin.com/in/vivekasdev/">LinkedIN</a></li>
-        </ul>
+      <div class="footer-header">social media presence</div>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline">
+          <a class="link" href="https://github.com/Vivek-aDev" target="_blank">
+            github
+          </a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://twitter.com/Vivek_aDev" target="_blank">
+            twitter
+          </a>
+        </li>
+        <li class="list-item-inline">
+          <a
+            class="link"
+            href="https://www.linkedin.com/in/vivekasdev/"
+            target="_blank"
+          >
+            linkedin
+          </a>
+        </li>
+      </ul>
     </footer>
-</body>
+  </body>
 </html>
