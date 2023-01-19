@@ -5,35 +5,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/blog-list-style.css">
+    <link
+      rel="shortcut icon"
+      href="/favicon_io/favicon-32x32.png"
+      type="image/x-icon"
+    />
     <title>blog_list</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <nav class="navigation">
-        <div class="nav-header">Portfolio | Blogs</div>
-        <div class="nav-pills">
-            <div>
-                <a class="nav-link" href="/">Home</a>
-            </div>
-            <div>
-                <a class="nav-link" href="/projects.html">Projects</a>
-            </div>
-            <div>
-                <a class="nav-link link-active" href="/blogs.html">Blogs</a>
-            </div>
-        </div>
-    </nav>
+    <!-- Navigation  -->
+    <nav class="navigation container">
+        <div class="nav-brand"><a href="/">Vivek_aDev</a></div>
+        <ul class="list-non-bullet nav-pills">
+          <li class="list-item-inline">
+            <a class="link" href="/">home</a>
+          </li>
+          <li class="list-item-inline">
+            <a class="link" href="/projects.html">projects</a>
+          </li>
+          <li class="list-item-inline">
+            <a class="link link-active" href="/blogs.html">blogs</a>
+          </li>
+        </ul>
+      </nav>
+<!-- header  -->
+<header class="hero">
+    <img class="hero-img" src="/svg/memory_storage.svg" />
+    <h1 class="hero-heading">
+      Dev | Vivekananda's <span class="heading-inverted"> Blogs</span>
+    </h1>
+  </header>
 
-    <header class="header">
-        <img class="header-img" src="/svg/memory_storage.svg">
-        <h1 class="header-content">Dev | Vivekananda's <span class="header-content-highlight">Blogs</span></h1>
-    </header>
-
-    <section class="section section-grey">
-        <div class="center-container">
-            <div class="center-container section-header"><span>Blockchain</span></div>
-            <p>As a developer, it's important to stay up-to-date with the latest tools and technologies in order to stay
+  <!-- section  -->
+  <ul class="list-non-bullet">
+    <!-- list01  -->
+    <li>
+        <article class="showcase-list container container-center grey">
+          <h1>Blockchain</h1>
+          <p>
+            As a developer, it's important to stay up-to-date with the latest tools and technologies in order to stay
                 competitive in the job market. One way to do this is by constantly learning and experimenting with new
                 technologies,
                 and sharing your knowledge with others through writing and speaking at conferences or meetups.
@@ -66,17 +78,15 @@
                 growth and innovation. By staying up-to-date with the latest technologies and continuously learning and
                 experimenting, you can position yourself as a valuable asset in the job market and make a meaningful
                 impact with your work.
-            </p>
-        </div>
-    </section>
-
-    <section class="section">
-        <div class="center-container">
-            <div class="center-container section-header">Artificial intelligence and machine learning<span
-                    class="header-content-highlight">
-                </span></div>
-
-            <p>Artificial intelligence (AI) and machine learning (ML) are two closely related fields that have made
+          </p>
+        </article>
+      </li>
+      <!-- list02  -->
+      <li>
+        <article class="showcase-list container container-center grey">
+          <h1>Artificial intelligence (AI) and Machine learning (ML)</h1>
+          <p>
+            Artificial intelligence (AI) and machine learning (ML) are two closely related fields that have made
                 significant progress in recent years, and are being used in a variety of industries to automate tasks and make
                 better decisions.
                 <br>
@@ -111,28 +121,38 @@
                 improve our daily lives. As these technologies continue to advance, it will be important to carefully
                 consider their
                 potential benefits and risks, and to ensure that they are used in a responsible and ethical manner.
-            </p>
+          </p>
+        </article>
+      </li>
+  </ul>
 
 
-        </div>
-    </section>
+   <!-- footer  -->
+   <footer class="footer">
+    <div class="footer-header">social media presence</div>
+    <ul class="social-links list-non-bullet">
+      <li class="list-item-inline">
+        <a class="link" href="https://github.com/Vivek-aDev" target="_blank">
+          github
+        </a>
+      </li>
+      <li class="list-item-inline">
+        <a class="link" href="https://twitter.com/Vivek_aDev" target="_blank">
+          twitter
+        </a>
+      </li>
+      <li class="list-item-inline">
+        <a
+          class="link"
+          href="https://www.linkedin.com/in/vivekasdev/"
+          target="_blank"
+        >
+          linkedin
+        </a>
+      </li>
+    </ul>
+  </footer>
 
-    <footer class="footer">
-        <div class="footer-header">Connect with me on: </div>
-
-        <ul class="non-bullet-list">
-            <li class="inline-list"><a class="footer-link" target="_blank"
-                    href="https://github.com/Vivek-aDev">Github</a>
-            </li>
-            <li class="inline-list"><a class="footer-link" target="_blank"
-                    href="https://twitter.com/Vivek_aDev">Twitter</a>
-            </li>
-            <li class="inline-list"><a class="footer-link" target="_blank"
-                    href="https://www.instagram.com/i_as_vivek/">Instagram</a></li>
-            <li class="inline-list"><a class="footer-link" target="_blank"
-                    href="https://www.linkedin.com/in/vivekasdev/">LinkedIN</a></li>
-        </ul>
-    </footer>
 </body>
 
 </html>
